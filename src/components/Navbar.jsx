@@ -1,8 +1,4 @@
 
-
-
-
-
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import FetchDataa from './FetchDataa.css';
@@ -16,7 +12,7 @@ const Navbar = () => {
 
   const handleSearchSubmit = (event) => {
     event.preventDefault();
-    // do something with searchText, like fetch search results from API
+    
     
   }
 
